@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: 5b30122741498d54fad30e3cbb2e6320
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Master File Heavy Slicer_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 192
+      height: 192
+    spriteID: 12690679bd057524c8b2527f0ebb8349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Master File Heavy Slicer_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 192
+      height: 192
+    spriteID: 479ca4eb07317014d9b06856ce9357d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: Master File Heavy Slicer_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 404
+      width: 192
+      height: 192
+    spriteID: a4a68f903d7cd32499e395609c67cce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 404}
+  - name: Master File Heavy Slicer_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 604
+      width: 192
+      height: 192
+    spriteID: 9af69801fe570164aa307b50fb9c287c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 604}
+  - name: Master File Heavy Slicer_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 804
+      width: 192
+      height: 192
+    spriteID: 75399c8fdd42ff54f8404adfc197892e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 804}
+  - name: Master File Heavy Slicer_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1004
+      width: 192
+      height: 192
+    spriteID: 08f259342d82d784db872d81778a3946
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1004}
+  - name: Master File Heavy Slicer_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1204
+      width: 192
+      height: 192
+    spriteID: 64fac533e0f1fc140a6f9cfc23ee5e63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1204}
+  - name: Master File Heavy Slicer_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1404
+      width: 192
+      height: 192
+    spriteID: 6581319ffa060fc4685e39c4621b294a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1404}
+  - name: Master File Heavy Slicer_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1604
+      width: 192
+      height: 192
+    spriteID: f342c6077e1de9a4fa9a56708c6f23f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1604}
+  - name: Master File Heavy Slicer_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1804
+      width: 192
+      height: 192
+    spriteID: d57ef196c783b77489c7be7f0614479d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1804}
+  - name: Master File Heavy Slicer_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 192
+      height: 192
+    spriteID: 2ecb72b01e144f34da7cc05c4636ee2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Master File Heavy Slicer_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 204
+      width: 192
+      height: 192
+    spriteID: d4205fede24538048b037a16fea16615
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 204}
+  - name: Master File Heavy Slicer_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 404
+      width: 192
+      height: 192
+    spriteID: f42c006137ba9474db965ed1cfe41e8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 404}
+  - name: Master File Heavy Slicer_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 604
+      width: 192
+      height: 192
+    spriteID: f199696d1b8cdcc43b829f8b57b11e59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 604}
+  - name: Master File Heavy Slicer_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 804
+      width: 192
+      height: 192
+    spriteID: 6a74ae8f59e2e774d952816d90b9fb7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 804}
+  - name: Master File Heavy Slicer_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 1004
+      width: 192
+      height: 192
+    spriteID: 6bd2a750f6d3bee4ebfbcd06fa704c56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 1004}
+  - name: Master File Heavy Slicer_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 1204
+      width: 192
+      height: 192
+    spriteID: f611bcae9de6c1340b3e89a7786bf2ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 1204}
+  - name: Master File Heavy Slicer_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 1404
+      width: 192
+      height: 192
+    spriteID: fdd3f9ca6161d1b45aea154e71d1d2c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 1404}
+  - name: Master File Heavy Slicer_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 1604
+      width: 192
+      height: 192
+    spriteID: f813b0dc0ccd4c64d9e30ac3aa27f985
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 1604}
+  - name: Master File Heavy Slicer_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 1804
+      width: 192
+      height: 192
+    spriteID: 4ddbdfd645baf80458ba6bc351f78933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 1804}
+  - name: Master File Heavy Slicer_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 4
+      width: 192
+      height: 192
+    spriteID: 18941f248b22d1b4ba3b3cd188dd7a46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 4}
+  - name: Master File Heavy Slicer_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 204
+      width: 192
+      height: 192
+    spriteID: 7a677c99ea967b1428a9a80107802d2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 204}
+  - name: Master File Heavy Slicer_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 404
+      width: 192
+      height: 192
+    spriteID: 36c1fc1342a06e148bddbaa6df94c655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 404}
+  - name: Master File Heavy Slicer_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 604
+      width: 192
+      height: 192
+    spriteID: 90d36883132f9b64abaf4856597b78e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 604}
+  - name: Master File Heavy Slicer_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 804
+      width: 192
+      height: 192
+    spriteID: 0900ed255f87b7f41bb9c06330bebd4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 804}
+  - name: Master File Heavy Slicer_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 1004
+      width: 192
+      height: 192
+    spriteID: c2d7a3fec39be1c478d23c13459cc3d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 1004}
+  - name: Master File Heavy Slicer_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 1204
+      width: 192
+      height: 192
+    spriteID: 0a7ce58c17eccea4886184d962acb5a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 1204}
+  - name: Master File Heavy Slicer_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 1404
+      width: 192
+      height: 192
+    spriteID: c0d7f992e58185d42a3d2afbf4212254
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 1404}
+  - name: Master File Heavy Slicer_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 1604
+      width: 192
+      height: 192
+    spriteID: 08a76a3cadf8e9c44bb8ad4d00ed22d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 1604}
+  - name: Master File Heavy Slicer_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 1804
+      width: 192
+      height: 192
+    spriteID: 3d65713744ff93741b27f1a32d0798b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 1804}
+  - name: Master File Heavy Slicer_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 4
+      width: 192
+      height: 192
+    spriteID: 06f70a27bd1201b42890bcc34ba0130a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 4}
+  - name: Master File Heavy Slicer_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 204
+      width: 192
+      height: 192
+    spriteID: 861af00fad4323043881c1bfc5678a48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 204}
+  - name: Master File Heavy Slicer_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 404
+      width: 192
+      height: 192
+    spriteID: 6d4f7387c025f9544a12e623446fd05a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 404}
+  - name: Master File Heavy Slicer_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 604
+      width: 192
+      height: 192
+    spriteID: e528801701af0a84da1133c39bc61e04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 604}
+  - name: Master File Heavy Slicer_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 804
+      width: 192
+      height: 192
+    spriteID: 1c02ec8dae2fccc4e99e91fe38f8b845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 804}
+  - name: Master File Heavy Slicer_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 1004
+      width: 192
+      height: 192
+    spriteID: 13509fa2a081177489d86b528a46755b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 1004}
+  - name: Master File Heavy Slicer_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 1204
+      width: 192
+      height: 192
+    spriteID: 38d36ea5ad4c17145af13d9527ff0b8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 1204}
+  - name: Master File Heavy Slicer_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 1404
+      width: 192
+      height: 192
+    spriteID: db11256bc1c4e9146b629f796da1e829
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 1404}
+  - name: Master File Heavy Slicer_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 1604
+      width: 192
+      height: 192
+    spriteID: 4884acaec4e59334eba03d7d815bf2b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 1604}
+  - name: Master File Heavy Slicer_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 1804
+      width: 192
+      height: 192
+    spriteID: aa24df3907d3827459f4f23fa1cf1af6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 604, y: 1804}
+  - name: Master File Heavy Slicer_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 4
+      width: 192
+      height: 192
+    spriteID: 2e5140990343a3b4983918a5c324c74e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 4}
+  - name: Master File Heavy Slicer_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 204
+      width: 192
+      height: 192
+    spriteID: a800e098ee28c8542870a6f99ed43f9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 204}
+  - name: Master File Heavy Slicer_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 404
+      width: 192
+      height: 192
+    spriteID: a3ca598ee36755d43a43b83a85a696e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 404}
+  - name: Master File Heavy Slicer_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 604
+      width: 192
+      height: 192
+    spriteID: 27680e51b5b461a408d3180d54c9b9a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 604}
+  - name: Master File Heavy Slicer_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 804
+      width: 192
+      height: 192
+    spriteID: 3014cce8c25b6844697e6fb407371560
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 804}
+  - name: Master File Heavy Slicer_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 1004
+      width: 192
+      height: 192
+    spriteID: 78a4084d56e5cd143a1f892bac2fabd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 1004}
+  - name: Master File Heavy Slicer_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 1204
+      width: 192
+      height: 192
+    spriteID: e2ba0e644dedaf64cb15687c7929032d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 1204}
+  - name: Master File Heavy Slicer_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 1404
+      width: 192
+      height: 192
+    spriteID: 0762acaf128a1fb48b829ae0591c2933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 1404}
+  - name: Master File Heavy Slicer_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 1604
+      width: 192
+      height: 192
+    spriteID: 66b9a9ad829afde459acc2aaf38d0b80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 1604}
+  - name: Master File Heavy Slicer_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 1804
+      width: 192
+      height: 192
+    spriteID: 3ff88ab9cec1cb7408113ecf82517d7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 1804}
+  - name: Master File Heavy Slicer_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1004
+      y: 4
+      width: 192
+      height: 192
+    spriteID: 93c3ea7ff083be9458934ed6aabc3bab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1004, y: 4}
+  - name: Master File Heavy Slicer_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.6354167}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1004
+      y: 204
+      width: 192
+      height: 192
+    spriteID: 0902a18ffa4a3044091940d87598194a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1004, y: 204}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -694084609
+    name: Master File Heavy Slicer
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Master File Heavy Slicer_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 12690679bd057524c8b2527f0ebb8349
+    - name: Master File Heavy Slicer_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 479ca4eb07317014d9b06856ce9357d6
+    - name: Master File Heavy Slicer_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: a4a68f903d7cd32499e395609c67cce5
+    - name: Master File Heavy Slicer_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 9af69801fe570164aa307b50fb9c287c
+    - name: Master File Heavy Slicer_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 75399c8fdd42ff54f8404adfc197892e
+    - name: Master File Heavy Slicer_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 08f259342d82d784db872d81778a3946
+    - name: Master File Heavy Slicer_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 64fac533e0f1fc140a6f9cfc23ee5e63
+    - name: Master File Heavy Slicer_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 6581319ffa060fc4685e39c4621b294a
+    - name: Master File Heavy Slicer_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: f342c6077e1de9a4fa9a56708c6f23f4
+    - name: Master File Heavy Slicer_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: d57ef196c783b77489c7be7f0614479d
+    - name: Master File Heavy Slicer_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 2ecb72b01e144f34da7cc05c4636ee2a
+    - name: Master File Heavy Slicer_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: d4205fede24538048b037a16fea16615
+    - name: Master File Heavy Slicer_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: f42c006137ba9474db965ed1cfe41e8e
+    - name: Master File Heavy Slicer_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: f199696d1b8cdcc43b829f8b57b11e59
+    - name: Master File Heavy Slicer_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 6a74ae8f59e2e774d952816d90b9fb7a
+    - name: Master File Heavy Slicer_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 6bd2a750f6d3bee4ebfbcd06fa704c56
+    - name: Master File Heavy Slicer_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: f611bcae9de6c1340b3e89a7786bf2ca
+    - name: Master File Heavy Slicer_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: fdd3f9ca6161d1b45aea154e71d1d2c8
+    - name: Master File Heavy Slicer_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: f813b0dc0ccd4c64d9e30ac3aa27f985
+    - name: Master File Heavy Slicer_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 4ddbdfd645baf80458ba6bc351f78933
+    - name: Master File Heavy Slicer_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 18941f248b22d1b4ba3b3cd188dd7a46
+    - name: Master File Heavy Slicer_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 7a677c99ea967b1428a9a80107802d2b
+    - name: Master File Heavy Slicer_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 36c1fc1342a06e148bddbaa6df94c655
+    - name: Master File Heavy Slicer_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 90d36883132f9b64abaf4856597b78e9
+    - name: Master File Heavy Slicer_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 0900ed255f87b7f41bb9c06330bebd4a
+    - name: Master File Heavy Slicer_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: c2d7a3fec39be1c478d23c13459cc3d8
+    - name: Master File Heavy Slicer_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 0a7ce58c17eccea4886184d962acb5a4
+    - name: Master File Heavy Slicer_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: c0d7f992e58185d42a3d2afbf4212254
+    - name: Master File Heavy Slicer_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 08a76a3cadf8e9c44bb8ad4d00ed22d3
+    - name: Master File Heavy Slicer_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 3d65713744ff93741b27f1a32d0798b3
+    - name: Master File Heavy Slicer_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 06f70a27bd1201b42890bcc34ba0130a
+    - name: Master File Heavy Slicer_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 861af00fad4323043881c1bfc5678a48
+    - name: Master File Heavy Slicer_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 6d4f7387c025f9544a12e623446fd05a
+    - name: Master File Heavy Slicer_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: e528801701af0a84da1133c39bc61e04
+    - name: Master File Heavy Slicer_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 1c02ec8dae2fccc4e99e91fe38f8b845
+    - name: Master File Heavy Slicer_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 13509fa2a081177489d86b528a46755b
+    - name: Master File Heavy Slicer_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 38d36ea5ad4c17145af13d9527ff0b8d
+    - name: Master File Heavy Slicer_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: db11256bc1c4e9146b629f796da1e829
+    - name: Master File Heavy Slicer_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 4884acaec4e59334eba03d7d815bf2b8
+    - name: Master File Heavy Slicer_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: aa24df3907d3827459f4f23fa1cf1af6
+    - name: Master File Heavy Slicer_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 2e5140990343a3b4983918a5c324c74e
+    - name: Master File Heavy Slicer_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: a800e098ee28c8542870a6f99ed43f9c
+    - name: Master File Heavy Slicer_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: a3ca598ee36755d43a43b83a85a696e5
+    - name: Master File Heavy Slicer_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 27680e51b5b461a408d3180d54c9b9a3
+    - name: Master File Heavy Slicer_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 3014cce8c25b6844697e6fb407371560
+    - name: Master File Heavy Slicer_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 78a4084d56e5cd143a1f892bac2fabd8
+    - name: Master File Heavy Slicer_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: e2ba0e644dedaf64cb15687c7929032d
+    - name: Master File Heavy Slicer_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 0762acaf128a1fb48b829ae0591c2933
+    - name: Master File Heavy Slicer_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 66b9a9ad829afde459acc2aaf38d0b80
+    - name: Master File Heavy Slicer_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 3ff88ab9cec1cb7408113ecf82517d7c
+    - name: Master File Heavy Slicer_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 93c3ea7ff083be9458934ed6aabc3bab
+    - name: Master File Heavy Slicer_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: -122
+        width: 192
+        height: 192
+      spriteId: 0902a18ffa4a3044091940d87598194a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 70}

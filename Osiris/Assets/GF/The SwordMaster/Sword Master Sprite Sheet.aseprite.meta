@@ -1,0 +1,4563 @@
+fileFormatVersion: 2
+guid: 911206860c74fdd4f865b96fcf4ebe70
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Appear Tele
+    second: {fileID: 7400000, guid: ef774200a20bcde4aa56fdaf90e773a1, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Block
+    second: {fileID: 7400000, guid: 80aab635732d7c34ba0be16e186b5e78, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Dash
+    second: {fileID: 7400000, guid: 7dd7e0a88bd4139428a6035d766d028d, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Fall
+    second: {fileID: 7400000, guid: 131144c6eb1be8946b2178fa3802b421, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Fall Attack
+    second: {fileID: 7400000, guid: ee0c2c010b27ffd4099e952de729de1a, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Hit
+    second: {fileID: 7400000, guid: 530cac646fe7d6f46890e80627604df6, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: 8024ba538404a6745a82b51f14aeb99d, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Jump
+    second: {fileID: 7400000, guid: b016f8e617c2d1b4ab7e8b9138ff8eee, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Jump Teleport
+    second: {fileID: 7400000, guid: a89b66154b34c3a4ea833c6cc0c2faa1, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Ledge Grab
+    second: {fileID: 7400000, guid: 0d70a91d4c5f89543a6c352ecf5be36b, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Roll
+    second: {fileID: 7400000, guid: 8521de706a742ec43900dba1186b2e7b, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Roll Attack
+    second: {fileID: 7400000, guid: a5708d70df3909f4ab1a10d7b0f86e7a, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run
+    second: {fileID: 7400000, guid: beffd2fc48757af41900076cfd799c77, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run Fast
+    second: {fileID: 7400000, guid: c8f8522a8f8b47645adcb20d05a61ff6, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Slam
+    second: {fileID: 7400000, guid: 13e25fc0a8f29884ea2173b28da0a7e5, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Slash 1
+    second: {fileID: 7400000, guid: a01e6a34b6dcf76418f07a00f4138bd3, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Slash 2
+    second: {fileID: 7400000, guid: 4b0b95480f1c82940b14ad77b8bf4fb2, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spin Attack
+    second: {fileID: 7400000, guid: 2cabd20d44ae8b24da2b86b8327a479b, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Walk
+    second: {fileID: 7400000, guid: 1ded67adc4c77454ea2e2610d0970998, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Wall Slide
+    second: {fileID: 7400000, guid: 209641e886ce91249aef255c7844ec8c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Wall Transition
+    second: {fileID: 7400000, guid: 8c78c3aa5f8c4b14486533c086334fb8, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Wall hold
+    second: {fileID: 7400000, guid: 67fe94049b306fd4882a7418fb79cc1e, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Wall slide Stop
+    second: {fileID: 7400000, guid: 00b7623d04e5d95488177d46468c42c1, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: crouch land
+    second: {fileID: 7400000, guid: 400efb1d576922d448daaae3e33dade8, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: death
+    second: {fileID: 7400000, guid: b1abd323fc9bc534e9d314ddcd8e92d5, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: static idle
+    second: {fileID: 7400000, guid: c4911fb596a98ce49ba0af95199de28c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: trans
+    second: {fileID: 7400000, guid: 4697d523ac0074b4085bf94192971a86, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 1
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 1
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638410476368888097
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Sword Master Sprite Sheet_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 317
+      y: 4
+      width: 76
+      height: 25
+    spriteID: bcb69a4c15ac57b4893f43d90d8dd5b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 317, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 386
+      y: 147
+      width: 23
+      height: 24
+    spriteID: 28a5211ef32281e478e3ee728627db35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 417
+      y: 147
+      width: 23
+      height: 24
+    spriteID: 8bef2eb26752fe24ca220d5529b04a5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 417, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 147
+      width: 23
+      height: 24
+    spriteID: 0e59db38b8704f74983343508fe097fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 147
+      width: 23
+      height: 24
+    spriteID: 162991e586edb0842ba4eb2caa524780
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 479, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 180
+      width: 23
+      height: 24
+    spriteID: e3858a21421de704a91f0f496a09aa25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 180
+      width: 23
+      height: 24
+    spriteID: ae6ca3c6871958747a03c9b72b58cf1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 180
+      width: 23
+      height: 24
+    spriteID: e4e8fa514d210ac4b995ab0843e09f64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 180
+      width: 23
+      height: 24
+    spriteID: 1e78c5fc443413c47ab3ef81756cdae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 180
+      width: 23
+      height: 24
+    spriteID: 3e82ae505b92a2e4292dbc0ade36db6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 180
+      width: 23
+      height: 24
+    spriteID: 0a123d4a26ef01048a433f72272c63d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 180
+      width: 23
+      height: 24
+    spriteID: 0b3897a83e7e8ca478f73aca6f713476
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 323
+      y: 147
+      width: 24
+      height: 24
+    spriteID: 74c8504f7c6873e4a9bcdf0c92d0f97d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 323, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 180
+      width: 23
+      height: 23
+    spriteID: daf1e52912701e143891330ff5694cbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 21
+      height: 25
+    spriteID: 6c8e09b53f819474295ab87ecc640fb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 245
+      width: 19
+      height: 26
+    spriteID: 5cd5e35b69e7c394ca2c54cd92230531
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 212
+      width: 17
+      height: 25
+    spriteID: 1a06edf1fc816594e9bddcfcfc392f15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 489
+      y: 46
+      width: 19
+      height: 23
+    spriteID: 38cc7b2f12e676b47979224a7b4afc42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 489, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 180
+      width: 22
+      height: 24
+    spriteID: c986ba5b6e7786c4c8f56995e50b47f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 355
+      y: 147
+      width: 23
+      height: 25
+    spriteID: 7ef3ce0fca09db5438db46050eaaa888
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 355, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 46
+      width: 23
+      height: 21
+    spriteID: 44523ce497513b147a571818fdc705b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 180
+      width: 23
+      height: 22
+    spriteID: 753f05ef2a74b614a8c035b03cba0756
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 447
+      y: 180
+      width: 23
+      height: 22
+    spriteID: 81bf521226eccbc4f83ddbf8c749d371
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 447, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 371
+      y: 46
+      width: 22
+      height: 21
+    spriteID: 28fe3990c631c9747932b5ed3f61c8e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 371, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 279
+      width: 13
+      height: 21
+    spriteID: 8257116ae9e64ab4b9448338aa449bd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 245
+      width: 12
+      height: 23
+    spriteID: 2b3e81b4bdc6d5846b04ce2d306c6bb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 348
+      y: 245
+      width: 13
+      height: 23
+    spriteID: 708463b79dda7844c8f9c4a58829775e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 348, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 245
+      width: 14
+      height: 22
+    spriteID: 6d445b171608d2947912d31cdea9b1e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 282, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 245
+      width: 16
+      height: 20
+    spriteID: 10194d2207a5a2448a2b1144b17686e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 245
+      width: 16
+      height: 21
+    spriteID: 69fe7e1b2e386ea46b189e3fd81b1e98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 245
+      width: 16
+      height: 21
+    spriteID: 90db3dce047168247abe9ba28b2b3a13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 245
+      width: 16
+      height: 20
+    spriteID: 243d7257c98ae2843a3009f9c4733418
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 338
+      width: 11
+      height: 20
+    spriteID: 5abd7f9f5ae12b540aca4ddf2bb95424
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 279
+      width: 11
+      height: 22
+    spriteID: 17c917015803cf045b65559fd91ac3b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 279
+      width: 12
+      height: 22
+    spriteID: fb55b55ee0ddb5447b2d704e6459bc09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 444
+      y: 279
+      width: 12
+      height: 20
+    spriteID: b0a077fd074242c4b99095d886b01efe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 444, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 46
+      width: 23
+      height: 21
+    spriteID: 61fd5a02c13282147b89ff60b072c30d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 390
+      y: 245
+      width: 21
+      height: 14
+    spriteID: c7e385b394bea7a46936b67a17d12e56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 390, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 338
+      width: 14
+      height: 15
+    spriteID: d8445f7edc4bb614caad89c484abf287
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 317
+      width: 17
+      height: 13
+    spriteID: 0b579a682d7a1604b88d6377521d3b3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 317}
+  - name: Sword Master Sprite Sheet_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 279
+      width: 15
+      height: 18
+    spriteID: a26b3ad79b710b240b0ea0dad8915d26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 31
+      y: 245
+      width: 17
+      height: 21
+    spriteID: a0b9a7a2f85d6af4b91efb9f76d44003
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 31, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 212
+      width: 19
+      height: 22
+    spriteID: 649447c9f4ad13848956fea486f4e4e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 180
+      width: 22
+      height: 24
+    spriteID: f1c76749b98e4114e9ee2674d0eb751b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 46
+      width: 23
+      height: 21
+    spriteID: 76d24a182b7f5ed40aa9de7fa00a501d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 419
+      y: 245
+      width: 21
+      height: 14
+    spriteID: faf5039a63670c544ac5b2ccbaf87581
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 419, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 338
+      width: 14
+      height: 15
+    spriteID: 0343c73721170d24d9c236041650622f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 279
+      width: 18
+      height: 13
+    spriteID: 29760e4e461a94843b5d5af7af23d344
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 464, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 403
+      y: 279
+      width: 14
+      height: 18
+    spriteID: 09b8841a01267494aa63f9a19cfc87d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 403, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 110
+      width: 50
+      height: 29
+    spriteID: 8c36ec90ff35e82438ace1016072b9f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 110
+      width: 38
+      height: 25
+    spriteID: e8b297cd567f7644980796e6dceca1c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 229, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 110
+      width: 49
+      height: 16
+    spriteID: 59712279368397c4e8c65ea3276f1123
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 110
+      width: 48
+      height: 27
+    spriteID: bbfc877bcce36c04ba73fd360d54ac3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 110
+      width: 49
+      height: 28
+    spriteID: abd5786ac39179840b3f8e644d826b7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 212
+      width: 21
+      height: 19
+    spriteID: edb7b550ff77bfd4d94211fd0c87559a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 395
+      y: 77
+      width: 49
+      height: 24
+    spriteID: c97baba8f10aa98448d533cd74a3ecd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 395, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 77
+      width: 46
+      height: 25
+    spriteID: 4351897ba563d254281a1d1ca2c6cab7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 452, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 110
+      width: 46
+      height: 27
+    spriteID: 6b97085813f1b584bb00bf461a1c0419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 277
+      y: 212
+      width: 17
+      height: 23
+    spriteID: 8ba07ae1ad479a141998cacaa8a87949
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 277, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 68
+      height: 34
+    spriteID: ea4ce9669acecaa49b2d57037de51ae5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 4
+      width: 88
+      height: 23
+    spriteID: 5bacbb9ef054a8d41b3276d8edc99275
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 110
+      width: 41
+      height: 20
+    spriteID: 99f1f7565bb495942a6bf7943e805e35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 77
+      width: 75
+      height: 21
+    spriteID: 6da29f57f00727a46b94bb1356dacc35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 46
+      width: 76
+      height: 23
+    spriteID: f2c61dee809bd2048a23125348d0b773
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 77
+      width: 68
+      height: 24
+    spriteID: 51dad62b1c5058e4b86c1f4720f09d76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 46
+      width: 21
+      height: 21
+    spriteID: 68d244849afb556408cf6315072799ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 279
+      y: 279
+      width: 12
+      height: 23
+    spriteID: 6a4fa5c3420e40d42896eb8199891475
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 279, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 279
+      width: 12
+      height: 23
+    spriteID: 482d3c703491692488a9edbc76deea19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 299, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 279
+      width: 12
+      height: 23
+    spriteID: 81861c9453b7d4445a453631502c6bd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 319, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 245
+      width: 14
+      height: 22
+    spriteID: 6242431a28a8c7c43be83c0df3f883c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 326
+      y: 245
+      width: 14
+      height: 22
+    spriteID: 712eaced096da3a469bea9d8e5f1c35f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 326, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 212
+      width: 19
+      height: 21
+    spriteID: b09b16c08bc2dd746a72f8b231fb8341
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 212
+      width: 19
+      height: 21
+    spriteID: 7e02bc8d2f93a844da2524ea8b0386fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 212
+      width: 19
+      height: 21
+    spriteID: 9e5776342e3123e40813e95b1b963c7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 212
+      width: 19
+      height: 21
+    spriteID: 0e9aef98b840abf4093549cc85e92fc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 250
+      y: 212
+      width: 19
+      height: 21
+    spriteID: ea35ca727ae349c4eaf742bd6b6ef554
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 250, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 110
+      width: 30
+      height: 23
+    spriteID: 93db9616d72bc844b84ddc7ec3b11d33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 212
+      width: 17
+      height: 23
+    spriteID: 583b3be2fc7cccd47a1642be03cce51a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 369
+      y: 245
+      width: 13
+      height: 23
+    spriteID: 90bd1f2c9a1f73a4e8d87cfada3f2306
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 369, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 147
+      width: 30
+      height: 21
+    spriteID: b798e52a406fd474bad0420683aa15d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 327
+      y: 212
+      width: 18
+      height: 21
+    spriteID: 048e7d4ea34eabe458b0436675f92665
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 327, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 245
+      width: 17
+      height: 21
+    spriteID: 8acae0e73a5b4d545b03a1bd830a901b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 245
+      width: 17
+      height: 21
+    spriteID: 3887741ca694e7b4caee8c8f9c38924a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 245
+      width: 17
+      height: 21
+    spriteID: a55de7b7bcc5258409ec47b8519942ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 245
+      width: 17
+      height: 21
+    spriteID: f52ecd7aad192924f8a277a26d1ef106
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 110
+      width: 31
+      height: 27
+    spriteID: c9d2891b9ad04484b8e15c0bef0e91ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 4
+      width: 28
+      height: 25
+    spriteID: 41fc37dbe5b3fa04fbfb5b4a5ddf72da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 478, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 212
+      width: 18
+      height: 21
+    spriteID: 87661255ec16caf4690853631b121503
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 458
+      y: 110
+      width: 27
+      height: 25
+    spriteID: 4d895fe4ed342a1459aac561713d8dbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 458, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 180
+      width: 24
+      height: 21
+    spriteID: 77b848554215a59478752bacda97a42b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 478, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 212
+      width: 20
+      height: 21
+    spriteID: 0946d9e69058f0642bfed5f83da9721b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 493
+      y: 110
+      width: 15
+      height: 21
+    spriteID: f6f846d68fa6f8a429dc6e04901acea0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 493, y: 110}
+  - name: Sword Master Sprite Sheet_Frame_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 245
+      width: 14
+      height: 21
+    spriteID: a2f1e39d70de28043930386fbd4a36ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 470
+      y: 245
+      width: 14
+      height: 21
+    spriteID: ed1701667116dbb4ab5c714a1c96f137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 470, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 338
+      width: 12
+      height: 17
+    spriteID: 4cf274f1c72e4d7419ac08b36938ec7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 338
+      width: 13
+      height: 14
+    spriteID: c0fdc42c25442714aa54eefafadc8a25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 366
+      width: 11
+      height: 15
+    spriteID: 77e7bcbf75a1b4a428fef283f8cebb30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 366}
+  - name: Sword Master Sprite Sheet_Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 490
+      y: 279
+      width: 12
+      height: 19
+    spriteID: 08d3a18e498081e4788810c3676e6e30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 490, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 147
+      width: 26
+      height: 25
+    spriteID: 17fd9d2705ad8544bae81d11637ee2f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 147
+      width: 25
+      height: 25
+    spriteID: 4ee40d299015eb54cbee1b851189494d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 147
+      width: 26
+      height: 25
+    spriteID: 376f649d953ffe74a8acdba6792773e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 147
+      width: 26
+      height: 25
+    spriteID: c2cf25e3ab8f0cc4c81d5889d778c777
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 147
+      width: 26
+      height: 25
+    spriteID: 49add8713abcdc2409d0fa12a8334e99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 14ddefde28ada11459920ee2e62ead76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 117
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 4c2f57220f4e08d4ab65c08c4f208d65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 117, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 279
+      width: 11
+      height: 30
+    spriteID: c2d13a0453c388441bb3b047af4919fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 279
+      width: 11
+      height: 30
+    spriteID: c55343c318285bd4bb7ecbb868743dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 279
+      width: 10
+      height: 30
+    spriteID: ef8e68dad89a7c946a4b97e6b7fb0b2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 279
+      width: 10
+      height: 30
+    spriteID: ebf212828140f82429f692429b9076af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 279
+      width: 11
+      height: 30
+    spriteID: a5c84e3ce6460504cb75f556ba7fc288
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 279
+      width: 10
+      height: 30
+    spriteID: f1e9cfb0dd49697428b6a4d482c09c35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 74ccc4801078c4449a8c0490e97ca296
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 279
+      width: 11
+      height: 30
+    spriteID: a50f4e81e7bcda9498201d57f64d78c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 207
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 6ef99bca23bade648a8f1579f25369bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 207, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 73bbd524c99c17145ad09520ca53d07a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 279
+      width: 11
+      height: 30
+    spriteID: 237b2395872309548bba16f69bf078d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 3da844787ef242b468c1d1b614bd69fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 261
+      y: 279
+      width: 10
+      height: 30
+    spriteID: 46b7d62a75f6ade4c899fc3a213bdf31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 261, y: 279}
+  - name: Sword Master Sprite Sheet_Frame_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 46
+      width: 23
+      height: 21
+    spriteID: abe53524c5d76b64ba4d1c1d8e2a6da2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 251
+      y: 46
+      width: 23
+      height: 21
+    spriteID: bb3ed34162df91b4da2cbf7182eae6e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 251, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 46
+      width: 23
+      height: 21
+    spriteID: fdfe8be83d246ae46bfa35e5e4738230
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 282, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 46
+      width: 23
+      height: 20
+    spriteID: 5255eb27338ef1349ae0262d0fcaa35a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 401, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 212
+      width: 25
+      height: 15
+    spriteID: 431097514df3c5f4087cd40a4fc24947
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 134
+      width: 36
+      height: 5
+    spriteID: 6e6314c4f7806ca4ca076e595f9b04b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 134}
+  - name: Sword Master Sprite Sheet_Frame_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 338
+      width: 35
+      height: 5
+    spriteID: 1bc1ced1cdd980945b686588505f0b90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 338
+      width: 35
+      height: 5
+    spriteID: 5c02481728156654dae58770b51183e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 77
+      width: 73
+      height: 22
+    spriteID: 7e6d6ca6406085a43bdcfc9dab340001
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 344
+      y: 180
+      width: 26
+      height: 20
+    spriteID: 33642d38364476b458df6df07110a04f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 344, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 77
+      width: 68
+      height: 25
+    spriteID: 5934f6d0901edce49aec2305e54ae76c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 4
+      width: 69
+      height: 26
+    spriteID: 1c28ffadb8f19e547ba15d49eabc71fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 401, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 77
+      width: 67
+      height: 22
+    spriteID: dccfa3127cab2c2499fcd7c81187e628
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 212
+      width: 22
+      height: 17
+    spriteID: a3f9746d5ee8e5b44bad010ba45dc7fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 442
+      y: 212
+      width: 22
+      height: 17
+    spriteID: 4f7880cbaf5d92a4ab3e6cbc945eb230
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 442, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 245
+      width: 22
+      height: 16
+    spriteID: 6cc2878a0ca867548b89d3f51bf6ee21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 245}
+  - name: Sword Master Sprite Sheet_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 62
+      height: 34
+    spriteID: 06c5f18dc1981874fa34fcac3a435b87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 4
+      width: 63
+      height: 33
+    spriteID: 8b1a19aa5a710ec4184d9b41f57c815d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 4}
+  - name: Sword Master Sprite Sheet_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 180
+      width: 24
+      height: 23
+    spriteID: 13708f89f21548b43aa6413dbc32134c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 313
+      y: 46
+      width: 21
+      height: 23
+    spriteID: 401f4b10dd4d1a1418ecee34aa452e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 313, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 46
+      width: 21
+      height: 23
+    spriteID: 05209f566a7ab204d92c9b4891476301
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 46
+      width: 20
+      height: 23
+    spriteID: 39d5749870964504a99b8f329c1b7578
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 432, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 338
+      width: 11
+      height: 18
+    spriteID: 895f7872cd365d54e8e94a37f7990095
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 338
+      width: 11
+      height: 18
+    spriteID: 5a191e12ae35517479b90a389da0879a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 338}
+  - name: Sword Master Sprite Sheet_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 147
+      width: 27
+      height: 22
+    spriteID: 68ca4c8824be61d418104923acc1f2b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 288, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 180
+      width: 30
+      height: 17
+    spriteID: 4c82aa8fa5366c540b53e557e6e84933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 180}
+  - name: Sword Master Sprite Sheet_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 147
+      width: 32
+      height: 20
+    spriteID: 7a896484e77979c4095a0ff5fce5886c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 46
+      width: 31
+      height: 21
+    spriteID: cbbb262bed47b0e459ad92e77ea142ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 46}
+  - name: Sword Master Sprite Sheet_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 251
+      y: 147
+      width: 29
+      height: 21
+    spriteID: d806f7851c96d8a4ca87ccf6a1e65920
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 251, y: 147}
+  - name: Sword Master Sprite Sheet_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 212
+      width: 22
+      height: 17
+    spriteID: e5eb856547b88444d832c18c7e77a7f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 212}
+  - name: Sword Master Sprite Sheet_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 300
+      width: 6
+      height: 9
+    spriteID: 99a608dcfd6b59243ad37812c0b04b51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 464, y: 300}
+  - name: Sword Master Sprite Sheet_Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 506
+      y: 77
+      width: 2
+      height: 7
+    spriteID: 6b96ca1c10c3d064ea4353400da266c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 506, y: 77}
+  - name: Sword Master Sprite Sheet_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 300
+      width: 2
+      height: 8
+    spriteID: d9310463af13e7248942f93519d5d09f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 478, y: 300}
+  - name: Sword Master Sprite Sheet_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 407
+      y: 134
+      width: 1
+      height: 1
+    spriteID: 9a71fdb031a6d3b4c95b2e4eb57c03e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 407, y: 134}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -983971113
+    name: Sword Master Sprite Sheet
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Sword Master Sprite Sheet_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 14
+        y: 4
+        width: 76
+        height: 25
+      spriteId: bcb69a4c15ac57b4893f43d90d8dd5b1
+    - name: Sword Master Sprite Sheet_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 28a5211ef32281e478e3ee728627db35
+    - name: Sword Master Sprite Sheet_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 8bef2eb26752fe24ca220d5529b04a5a
+    - name: Sword Master Sprite Sheet_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 0e59db38b8704f74983343508fe097fe
+    - name: Sword Master Sprite Sheet_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 162991e586edb0842ba4eb2caa524780
+    - name: Sword Master Sprite Sheet_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: e3858a21421de704a91f0f496a09aa25
+    - name: Sword Master Sprite Sheet_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: ae6ca3c6871958747a03c9b72b58cf1c
+    - name: Sword Master Sprite Sheet_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: e4e8fa514d210ac4b995ab0843e09f64
+    - name: Sword Master Sprite Sheet_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 1e78c5fc443413c47ab3ef81756cdae2
+    - name: Sword Master Sprite Sheet_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 3e82ae505b92a2e4292dbc0ade36db6b
+    - name: Sword Master Sprite Sheet_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 0a123d4a26ef01048a433f72272c63d1
+    - name: Sword Master Sprite Sheet_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 24
+      spriteId: 0b3897a83e7e8ca478f73aca6f713476
+    - name: Sword Master Sprite Sheet_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 15
+        y: 3
+        width: 24
+        height: 24
+      spriteId: 74c8504f7c6873e4a9bcdf0c92d0f97d
+    - name: Sword Master Sprite Sheet_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 23
+      spriteId: daf1e52912701e143891330ff5694cbe
+    - name: Sword Master Sprite Sheet_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 17
+        y: 2
+        width: 21
+        height: 25
+      spriteId: 6c8e09b53f819474295ab87ecc640fb5
+    - name: Sword Master Sprite Sheet_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 18
+        y: 2
+        width: 19
+        height: 26
+      spriteId: 5cd5e35b69e7c394ca2c54cd92230531
+    - name: Sword Master Sprite Sheet_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 19
+        y: 2
+        width: 17
+        height: 25
+      spriteId: 1a06edf1fc816594e9bddcfcfc392f15
+    - name: Sword Master Sprite Sheet_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 18
+        y: 3
+        width: 19
+        height: 23
+      spriteId: 38cc7b2f12e676b47979224a7b4afc42
+    - name: Sword Master Sprite Sheet_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 17
+        y: 3
+        width: 22
+        height: 24
+      spriteId: c986ba5b6e7786c4c8f56995e50b47f4
+    - name: Sword Master Sprite Sheet_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 25
+      spriteId: 7ef3ce0fca09db5438db46050eaaa888
+    - name: Sword Master Sprite Sheet_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 21
+      spriteId: 44523ce497513b147a571818fdc705b1
+    - name: Sword Master Sprite Sheet_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 16
+        y: 4
+        width: 23
+        height: 22
+      spriteId: 753f05ef2a74b614a8c035b03cba0756
+    - name: Sword Master Sprite Sheet_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 16
+        y: 5
+        width: 23
+        height: 22
+      spriteId: 81bf521226eccbc4f83ddbf8c749d371
+    - name: Sword Master Sprite Sheet_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 16
+        y: 5
+        width: 22
+        height: 21
+      spriteId: 28fe3990c631c9747932b5ed3f61c8e1
+    - name: Sword Master Sprite Sheet_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 21
+        y: 3
+        width: 13
+        height: 21
+      spriteId: 8257116ae9e64ab4b9448338aa449bd5
+    - name: Sword Master Sprite Sheet_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 22
+        y: 3
+        width: 12
+        height: 23
+      spriteId: 2b3e81b4bdc6d5846b04ce2d306c6bb4
+    - name: Sword Master Sprite Sheet_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 21
+        y: 4
+        width: 13
+        height: 23
+      spriteId: 708463b79dda7844c8f9c4a58829775e
+    - name: Sword Master Sprite Sheet_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 21
+        y: 4
+        width: 14
+        height: 22
+      spriteId: 6d445b171608d2947912d31cdea9b1e4
+    - name: Sword Master Sprite Sheet_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 18
+        y: 3
+        width: 16
+        height: 20
+      spriteId: 10194d2207a5a2448a2b1144b17686e9
+    - name: Sword Master Sprite Sheet_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 18
+        y: 4
+        width: 16
+        height: 21
+      spriteId: 69fe7e1b2e386ea46b189e3fd81b1e98
+    - name: Sword Master Sprite Sheet_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 18
+        y: 5
+        width: 16
+        height: 21
+      spriteId: 90db3dce047168247abe9ba28b2b3a13
+    - name: Sword Master Sprite Sheet_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 18
+        y: 5
+        width: 16
+        height: 20
+      spriteId: 243d7257c98ae2843a3009f9c4733418
+    - name: Sword Master Sprite Sheet_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 21
+        y: 3
+        width: 11
+        height: 20
+      spriteId: 5abd7f9f5ae12b540aca4ddf2bb95424
+    - name: Sword Master Sprite Sheet_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 21
+        y: 3
+        width: 11
+        height: 22
+      spriteId: 17c917015803cf045b65559fd91ac3b6
+    - name: Sword Master Sprite Sheet_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 21
+        y: 4
+        width: 12
+        height: 22
+      spriteId: fb55b55ee0ddb5447b2d704e6459bc09
+    - name: Sword Master Sprite Sheet_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 21
+        y: 5
+        width: 12
+        height: 20
+      spriteId: b0a077fd074242c4b99095d886b01efe
+    - name: Sword Master Sprite Sheet_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 21
+      spriteId: 61fd5a02c13282147b89ff60b072c30d
+    - name: Sword Master Sprite Sheet_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 17
+        y: 3
+        width: 21
+        height: 14
+      spriteId: c7e385b394bea7a46936b67a17d12e56
+    - name: Sword Master Sprite Sheet_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 19
+        y: 3
+        width: 14
+        height: 15
+      spriteId: d8445f7edc4bb614caad89c484abf287
+    - name: Sword Master Sprite Sheet_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 18
+        y: 3
+        width: 17
+        height: 13
+      spriteId: 0b579a682d7a1604b88d6377521d3b3a
+    - name: Sword Master Sprite Sheet_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 19
+        y: 3
+        width: 15
+        height: 18
+      spriteId: a26b3ad79b710b240b0ea0dad8915d26
+    - name: Sword Master Sprite Sheet_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 20
+        y: 3
+        width: 17
+        height: 21
+      spriteId: a0b9a7a2f85d6af4b91efb9f76d44003
+    - name: Sword Master Sprite Sheet_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 19
+        y: 3
+        width: 19
+        height: 22
+      spriteId: 649447c9f4ad13848956fea486f4e4e1
+    - name: Sword Master Sprite Sheet_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 17
+        y: 3
+        width: 22
+        height: 24
+      spriteId: f1c76749b98e4114e9ee2674d0eb751b
+    - name: Sword Master Sprite Sheet_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 21
+      spriteId: 76d24a182b7f5ed40aa9de7fa00a501d
+    - name: Sword Master Sprite Sheet_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 17
+        y: 3
+        width: 21
+        height: 14
+      spriteId: faf5039a63670c544ac5b2ccbaf87581
+    - name: Sword Master Sprite Sheet_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 19
+        y: 3
+        width: 14
+        height: 15
+      spriteId: 0343c73721170d24d9c236041650622f
+    - name: Sword Master Sprite Sheet_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 17
+        y: 3
+        width: 18
+        height: 13
+      spriteId: 29760e4e461a94843b5d5af7af23d344
+    - name: Sword Master Sprite Sheet_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 17
+        y: 3
+        width: 14
+        height: 18
+      spriteId: 09b8841a01267494aa63f9a19cfc87d6
+    - name: Sword Master Sprite Sheet_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 17
+        y: 3
+        width: 50
+        height: 29
+      spriteId: 8c36ec90ff35e82438ace1016072b9f2
+    - name: Sword Master Sprite Sheet_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 17
+        y: 3
+        width: 38
+        height: 25
+      spriteId: e8b297cd567f7644980796e6dceca1c5
+    - name: Sword Master Sprite Sheet_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 17
+        y: 3
+        width: 49
+        height: 16
+      spriteId: 59712279368397c4e8c65ea3276f1123
+    - name: Sword Master Sprite Sheet_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 17
+        y: 3
+        width: 48
+        height: 27
+      spriteId: bbfc877bcce36c04ba73fd360d54ac3c
+    - name: Sword Master Sprite Sheet_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 17
+        y: 3
+        width: 49
+        height: 28
+      spriteId: abd5786ac39179840b3f8e644d826b7d
+    - name: Sword Master Sprite Sheet_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 27
+        y: 4
+        width: 21
+        height: 19
+      spriteId: edb7b550ff77bfd4d94211fd0c87559a
+    - name: Sword Master Sprite Sheet_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 28
+        y: 5
+        width: 49
+        height: 24
+      spriteId: c97baba8f10aa98448d533cd74a3ecd1
+    - name: Sword Master Sprite Sheet_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 28
+        y: 5
+        width: 46
+        height: 25
+      spriteId: 4351897ba563d254281a1d1ca2c6cab7
+    - name: Sword Master Sprite Sheet_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 27
+        y: 4
+        width: 46
+        height: 27
+      spriteId: 6b97085813f1b584bb00bf461a1c0419
+    - name: Sword Master Sprite Sheet_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 17
+        y: 3
+        width: 17
+        height: 23
+      spriteId: 8ba07ae1ad479a141998cacaa8a87949
+    - name: Sword Master Sprite Sheet_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 20
+        y: 3
+        width: 68
+        height: 34
+      spriteId: ea4ce9669acecaa49b2d57037de51ae5
+    - name: Sword Master Sprite Sheet_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 3
+        width: 88
+        height: 23
+      spriteId: 5bacbb9ef054a8d41b3276d8edc99275
+    - name: Sword Master Sprite Sheet_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 13
+        y: 3
+        width: 41
+        height: 20
+      spriteId: 99f1f7565bb495942a6bf7943e805e35
+    - name: Sword Master Sprite Sheet_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 10
+        y: 3
+        width: 75
+        height: 21
+      spriteId: 6da29f57f00727a46b94bb1356dacc35
+    - name: Sword Master Sprite Sheet_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 9
+        y: 3
+        width: 76
+        height: 23
+      spriteId: f2c61dee809bd2048a23125348d0b773
+    - name: Sword Master Sprite Sheet_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 18
+        y: 3
+        width: 68
+        height: 24
+      spriteId: 51dad62b1c5058e4b86c1f4720f09d76
+    - name: Sword Master Sprite Sheet_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 18
+        y: 3
+        width: 21
+        height: 21
+      spriteId: 68d244849afb556408cf6315072799ce
+    - name: Sword Master Sprite Sheet_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 22
+        y: 5
+        width: 12
+        height: 23
+      spriteId: 6a4fa5c3420e40d42896eb8199891475
+    - name: Sword Master Sprite Sheet_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 22
+        y: 5
+        width: 12
+        height: 23
+      spriteId: 482d3c703491692488a9edbc76deea19
+    - name: Sword Master Sprite Sheet_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 22
+        y: 5
+        width: 12
+        height: 23
+      spriteId: 81861c9453b7d4445a453631502c6bd1
+    - name: Sword Master Sprite Sheet_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 21
+        y: 6
+        width: 14
+        height: 22
+      spriteId: 6242431a28a8c7c43be83c0df3f883c6
+    - name: Sword Master Sprite Sheet_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 21
+        y: 6
+        width: 14
+        height: 22
+      spriteId: 712eaced096da3a469bea9d8e5f1c35f
+    - name: Sword Master Sprite Sheet_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 17
+        y: 7
+        width: 19
+        height: 21
+      spriteId: b09b16c08bc2dd746a72f8b231fb8341
+    - name: Sword Master Sprite Sheet_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 17
+        y: 7
+        width: 19
+        height: 21
+      spriteId: 7e02bc8d2f93a844da2524ea8b0386fe
+    - name: Sword Master Sprite Sheet_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 17
+        y: 7
+        width: 19
+        height: 21
+      spriteId: 9e5776342e3123e40813e95b1b963c7f
+    - name: Sword Master Sprite Sheet_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 17
+        y: 7
+        width: 19
+        height: 21
+      spriteId: 0e9aef98b840abf4093549cc85e92fc6
+    - name: Sword Master Sprite Sheet_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 17
+        y: 7
+        width: 19
+        height: 21
+      spriteId: ea35ca727ae349c4eaf742bd6b6ef554
+    - name: Sword Master Sprite Sheet_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 12
+        y: 5
+        width: 30
+        height: 23
+      spriteId: 93db9616d72bc844b84ddc7ec3b11d33
+    - name: Sword Master Sprite Sheet_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 18
+        y: 5
+        width: 17
+        height: 23
+      spriteId: 583b3be2fc7cccd47a1642be03cce51a
+    - name: Sword Master Sprite Sheet_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 21
+        y: 5
+        width: 13
+        height: 23
+      spriteId: 90bd1f2c9a1f73a4e8d87cfada3f2306
+    - name: Sword Master Sprite Sheet_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 12
+        y: 7
+        width: 30
+        height: 21
+      spriteId: b798e52a406fd474bad0420683aa15d0
+    - name: Sword Master Sprite Sheet_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 18
+        y: 7
+        width: 18
+        height: 21
+      spriteId: 048e7d4ea34eabe458b0436675f92665
+    - name: Sword Master Sprite Sheet_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 19
+        y: 7
+        width: 17
+        height: 21
+      spriteId: 8acae0e73a5b4d545b03a1bd830a901b
+    - name: Sword Master Sprite Sheet_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 19
+        y: 7
+        width: 17
+        height: 21
+      spriteId: 3887741ca694e7b4caee8c8f9c38924a
+    - name: Sword Master Sprite Sheet_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 19
+        y: 7
+        width: 17
+        height: 21
+      spriteId: a55de7b7bcc5258409ec47b8519942ef
+    - name: Sword Master Sprite Sheet_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 19
+        y: 7
+        width: 17
+        height: 21
+      spriteId: f52ecd7aad192924f8a277a26d1ef106
+    - name: Sword Master Sprite Sheet_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 11
+        y: 1
+        width: 31
+        height: 27
+      spriteId: c9d2891b9ad04484b8e15c0bef0e91ca
+    - name: Sword Master Sprite Sheet_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 13
+        y: 3
+        width: 28
+        height: 25
+      spriteId: 41fc37dbe5b3fa04fbfb5b4a5ddf72da
+    - name: Sword Master Sprite Sheet_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 17
+        y: 7
+        width: 18
+        height: 21
+      spriteId: 87661255ec16caf4690853631b121503
+    - name: Sword Master Sprite Sheet_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 12
+        y: 3
+        width: 27
+        height: 25
+      spriteId: 4d895fe4ed342a1459aac561713d8dbe
+    - name: Sword Master Sprite Sheet_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 12
+        y: 7
+        width: 24
+        height: 21
+      spriteId: 77b848554215a59478752bacda97a42b
+    - name: Sword Master Sprite Sheet_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 16
+        y: 7
+        width: 20
+        height: 21
+      spriteId: 0946d9e69058f0642bfed5f83da9721b
+    - name: Sword Master Sprite Sheet_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 21
+        y: 7
+        width: 15
+        height: 21
+      spriteId: f6f846d68fa6f8a429dc6e04901acea0
+    - name: Sword Master Sprite Sheet_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 22
+        y: 7
+        width: 14
+        height: 21
+      spriteId: a2f1e39d70de28043930386fbd4a36ea
+    - name: Sword Master Sprite Sheet_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 22
+        y: 7
+        width: 14
+        height: 21
+      spriteId: ed1701667116dbb4ab5c714a1c96f137
+    - name: Sword Master Sprite Sheet_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 22
+        y: 3
+        width: 12
+        height: 17
+      spriteId: 4cf274f1c72e4d7419ac08b36938ec7d
+    - name: Sword Master Sprite Sheet_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 21
+        y: 3
+        width: 13
+        height: 14
+      spriteId: c0fdc42c25442714aa54eefafadc8a25
+    - name: Sword Master Sprite Sheet_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 23
+        y: 3
+        width: 11
+        height: 15
+      spriteId: 77e7bcbf75a1b4a428fef283f8cebb30
+    - name: Sword Master Sprite Sheet_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 23
+        y: 3
+        width: 12
+        height: 19
+      spriteId: 08d3a18e498081e4788810c3676e6e30
+    - name: Sword Master Sprite Sheet_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 22
+        y: 3
+        width: 26
+        height: 25
+      spriteId: 17fd9d2705ad8544bae81d11637ee2f3
+    - name: Sword Master Sprite Sheet_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 23
+        y: 3
+        width: 25
+        height: 25
+      spriteId: 4ee40d299015eb54cbee1b851189494d
+    - name: Sword Master Sprite Sheet_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 22
+        y: 3
+        width: 26
+        height: 25
+      spriteId: 376f649d953ffe74a8acdba6792773e4
+    - name: Sword Master Sprite Sheet_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 22
+        y: 3
+        width: 26
+        height: 25
+      spriteId: c2cf25e3ab8f0cc4c81d5889d778c777
+    - name: Sword Master Sprite Sheet_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 22
+        y: 3
+        width: 26
+        height: 25
+      spriteId: 49add8713abcdc2409d0fa12a8334e99
+    - name: Sword Master Sprite Sheet_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 14ddefde28ada11459920ee2e62ead76
+    - name: Sword Master Sprite Sheet_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 4c2f57220f4e08d4ab65c08c4f208d65
+    - name: Sword Master Sprite Sheet_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 22
+        y: 2
+        width: 11
+        height: 30
+      spriteId: c2d13a0453c388441bb3b047af4919fe
+    - name: Sword Master Sprite Sheet_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 22
+        y: 2
+        width: 11
+        height: 30
+      spriteId: c55343c318285bd4bb7ecbb868743dd8
+    - name: Sword Master Sprite Sheet_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: ef8e68dad89a7c946a4b97e6b7fb0b2f
+    - name: Sword Master Sprite Sheet_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: ebf212828140f82429f692429b9076af
+    - name: Sword Master Sprite Sheet_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 22
+        y: 2
+        width: 11
+        height: 30
+      spriteId: a5c84e3ce6460504cb75f556ba7fc288
+    - name: Sword Master Sprite Sheet_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: f1e9cfb0dd49697428b6a4d482c09c35
+    - name: Sword Master Sprite Sheet_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 74ccc4801078c4449a8c0490e97ca296
+    - name: Sword Master Sprite Sheet_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 22
+        y: 2
+        width: 11
+        height: 30
+      spriteId: a50f4e81e7bcda9498201d57f64d78c2
+    - name: Sword Master Sprite Sheet_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 6ef99bca23bade648a8f1579f25369bc
+    - name: Sword Master Sprite Sheet_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 73bbd524c99c17145ad09520ca53d07a
+    - name: Sword Master Sprite Sheet_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 22
+        y: 2
+        width: 11
+        height: 30
+      spriteId: 237b2395872309548bba16f69bf078d9
+    - name: Sword Master Sprite Sheet_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 3da844787ef242b468c1d1b614bd69fd
+    - name: Sword Master Sprite Sheet_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 23
+        y: 2
+        width: 10
+        height: 30
+      spriteId: 46b7d62a75f6ade4c899fc3a213bdf31
+    - name: Sword Master Sprite Sheet_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 21
+      spriteId: abe53524c5d76b64ba4d1c1d8e2a6da2
+    - name: Sword Master Sprite Sheet_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 21
+      spriteId: bb3ed34162df91b4da2cbf7182eae6e5
+    - name: Sword Master Sprite Sheet_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 21
+      spriteId: fdfe8be83d246ae46bfa35e5e4738230
+    - name: Sword Master Sprite Sheet_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 20
+      spriteId: 5255eb27338ef1349ae0262d0fcaa35a
+    - name: Sword Master Sprite Sheet_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 16
+        y: 4
+        width: 25
+        height: 15
+      spriteId: 431097514df3c5f4087cd40a4fc24947
+    - name: Sword Master Sprite Sheet_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 18
+        y: 3
+        width: 36
+        height: 5
+      spriteId: 6e6314c4f7806ca4ca076e595f9b04b0
+    - name: Sword Master Sprite Sheet_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 19
+        y: 3
+        width: 35
+        height: 5
+      spriteId: 1bc1ced1cdd980945b686588505f0b90
+    - name: Sword Master Sprite Sheet_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 20
+        y: 3
+        width: 35
+        height: 5
+      spriteId: 5c02481728156654dae58770b51183e0
+    - name: Sword Master Sprite Sheet_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 11
+        y: 4
+        width: 73
+        height: 22
+      spriteId: 7e6d6ca6406085a43bdcfc9dab340001
+    - name: Sword Master Sprite Sheet_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 9
+        y: 1
+        width: 26
+        height: 20
+      spriteId: 33642d38364476b458df6df07110a04f
+    - name: Sword Master Sprite Sheet_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 10
+        y: 0
+        width: 68
+        height: 25
+      spriteId: 5934f6d0901edce49aec2305e54ae76c
+    - name: Sword Master Sprite Sheet_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 10
+        y: 0
+        width: 69
+        height: 26
+      spriteId: 1c28ffadb8f19e547ba15d49eabc71fd
+    - name: Sword Master Sprite Sheet_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 12
+        y: 5
+        width: 67
+        height: 22
+      spriteId: dccfa3127cab2c2499fcd7c81187e628
+    - name: Sword Master Sprite Sheet_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 12
+        y: 4
+        width: 22
+        height: 17
+      spriteId: a3f9746d5ee8e5b44bad010ba45dc7fd
+    - name: Sword Master Sprite Sheet_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 12
+        y: 4
+        width: 22
+        height: 17
+      spriteId: 4f7880cbaf5d92a4ab3e6cbc945eb230
+    - name: Sword Master Sprite Sheet_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 25
+        y: 3
+        width: 22
+        height: 16
+      spriteId: 6cc2878a0ca867548b89d3f51bf6ee21
+    - name: Sword Master Sprite Sheet_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 25
+        y: 3
+        width: 62
+        height: 34
+      spriteId: 06c5f18dc1981874fa34fcac3a435b87
+    - name: Sword Master Sprite Sheet_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 25
+        y: 3
+        width: 63
+        height: 33
+      spriteId: 8b1a19aa5a710ec4184d9b41f57c815d
+    - name: Sword Master Sprite Sheet_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 21
+        y: 3
+        width: 24
+        height: 23
+      spriteId: 13708f89f21548b43aa6413dbc32134c
+    - name: Sword Master Sprite Sheet_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 23
+        y: 3
+        width: 21
+        height: 23
+      spriteId: 401f4b10dd4d1a1418ecee34aa452e4c
+    - name: Sword Master Sprite Sheet_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 23
+        y: 3
+        width: 21
+        height: 23
+      spriteId: 05209f566a7ab204d92c9b4891476301
+    - name: Sword Master Sprite Sheet_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 24
+        y: 3
+        width: 20
+        height: 23
+      spriteId: 39d5749870964504a99b8f329c1b7578
+    - name: Sword Master Sprite Sheet_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 25
+        y: 3
+        width: 11
+        height: 18
+      spriteId: 895f7872cd365d54e8e94a37f7990095
+    - name: Sword Master Sprite Sheet_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 25
+        y: 3
+        width: 11
+        height: 18
+      spriteId: 5a191e12ae35517479b90a389da0879a
+    - name: Sword Master Sprite Sheet_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 7
+        y: 2
+        width: 27
+        height: 22
+      spriteId: 68ca4c8824be61d418104923acc1f2b4
+    - name: Sword Master Sprite Sheet_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 4
+        y: 4
+        width: 30
+        height: 17
+      spriteId: 4c82aa8fa5366c540b53e557e6e84933
+    - name: Sword Master Sprite Sheet_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 3
+        y: 5
+        width: 32
+        height: 20
+      spriteId: 7a896484e77979c4095a0ff5fce5886c
+    - name: Sword Master Sprite Sheet_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 3
+        y: 5
+        width: 31
+        height: 21
+      spriteId: cbbb262bed47b0e459ad92e77ea142ec
+    - name: Sword Master Sprite Sheet_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 6
+        y: 5
+        width: 29
+        height: 21
+      spriteId: d806f7851c96d8a4ca87ccf6a1e65920
+    - name: Sword Master Sprite Sheet_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 12
+        y: 4
+        width: 22
+        height: 17
+      spriteId: e5eb856547b88444d832c18c7e77a7f0
+    - name: Sword Master Sprite Sheet_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 23
+        y: 12
+        width: 6
+        height: 9
+      spriteId: 99a608dcfd6b59243ad37812c0b04b51
+    - name: Sword Master Sprite Sheet_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 27
+        y: 14
+        width: 2
+        height: 7
+      spriteId: 6b96ca1c10c3d064ea4353400da266c9
+    - name: Sword Master Sprite Sheet_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 26
+        y: 14
+        width: 2
+        height: 8
+      spriteId: d9310463af13e7248942f93519d5d09f
+    - name: Sword Master Sprite Sheet_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 27
+        y: 20
+        width: 1
+        height: 1
+      spriteId: 9a71fdb031a6d3b4c95b2e4eb57c03e5
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 90, y: 37}

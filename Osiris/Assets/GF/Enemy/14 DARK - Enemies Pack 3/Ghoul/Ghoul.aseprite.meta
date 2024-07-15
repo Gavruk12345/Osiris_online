@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: 60d51e4c90d5ac343bd86342f642232a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Ghoul_Frame_0
+    originalName: 
+    pivot: {x: 0.44444442, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 114
+      width: 9
+      height: 23
+    spriteID: 6f7f02f1c7f30204abf2ce515ff7b69d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 114}
+  - name: Ghoul_Frame_1
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 219
+      y: 75
+      width: 10
+      height: 23
+    spriteID: ecbeb47578794d5478d7cbf1ac6b00a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 75}
+  - name: Ghoul_Frame_2
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 75
+      width: 10
+      height: 23
+    spriteID: ba463341c0625cf41a567f5b21df3ca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 75}
+  - name: Ghoul_Frame_3
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 10
+      height: 23
+    spriteID: 8897caba698784146ad15d0cd23b95ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 114}
+  - name: Ghoul_Frame_4
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 22
+      y: 114
+      width: 10
+      height: 23
+    spriteID: c4e462f5a73a8174987d53112d452685
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 22, y: 114}
+  - name: Ghoul_Frame_5
+    originalName: 
+    pivot: {x: 0.41666672, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 75
+      width: 12
+      height: 22
+    spriteID: 5c019e9feddcebb4595e3ed168bf1c4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 75}
+  - name: Ghoul_Frame_6
+    originalName: 
+    pivot: {x: 0.46153846, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 75
+      width: 13
+      height: 21
+    spriteID: f8d3ede585ef39241b78b2a3f24cff6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 75}
+  - name: Ghoul_Frame_7
+    originalName: 
+    pivot: {x: 0.41666672, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 75
+      width: 12
+      height: 20
+    spriteID: ce5faf3ab6e87804c93ec7919c0ba496
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 75}
+  - name: Ghoul_Frame_8
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 149
+      y: 114
+      width: 10
+      height: 21
+    spriteID: 1a08c2362dcd5fe4bb51bc5239883e07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 149, y: 114}
+  - name: Ghoul_Frame_9
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 114
+      width: 10
+      height: 23
+    spriteID: 4cde5f7a3223149469f2b6ce4140ac06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 114}
+  - name: Ghoul_Frame_10
+    originalName: 
+    pivot: {x: 0.36363634, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 75
+      width: 11
+      height: 22
+    spriteID: d5502eda0b4cb14438510fc325c73250
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 75}
+  - name: Ghoul_Frame_11
+    originalName: 
+    pivot: {x: 0.36363634, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 114
+      width: 11
+      height: 20
+    spriteID: 3e4a1301b4d04a94da798f08ae052a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 114}
+  - name: Ghoul_Frame_12
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 114
+      width: 10
+      height: 21
+    spriteID: 358989b92d19d7248a65e1d2771c2b44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 114}
+  - name: Ghoul_Frame_13
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 114
+      width: 10
+      height: 23
+    spriteID: 5d0520f99d7ed354c8de3e6aa33a4822
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 114}
+  - name: Ghoul_Frame_14
+    originalName: 
+    pivot: {x: 0.9285714, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 75
+      width: 14
+      height: 25
+    spriteID: caf0bbef5212d424a92aab7e3dbe26df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 75}
+  - name: Ghoul_Frame_15
+    originalName: 
+    pivot: {x: 0.88235295, y: -0.032258067}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 75
+      width: 17
+      height: 31
+    spriteID: 037ecd634d229f24e85d6fe6d326520c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 75}
+  - name: Ghoul_Frame_16
+    originalName: 
+    pivot: {x: 0.2682927, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 41
+      height: 25
+    spriteID: 00203e59cd8b3ce49960a20b9111eefe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Ghoul_Frame_17
+    originalName: 
+    pivot: {x: 0.23076925, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 4
+      width: 39
+      height: 22
+    spriteID: 7c8f8444d5b47e249ad3acc657e32572
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 4}
+  - name: Ghoul_Frame_18
+    originalName: 
+    pivot: {x: 0.23076925, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 39
+      height: 21
+    spriteID: d0113074bde55bc4390a06d68239b604
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: Ghoul_Frame_19
+    originalName: 
+    pivot: {x: 0.22500001, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 40
+      height: 21
+    spriteID: e90d482ea9b131e44976184aec561b99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: Ghoul_Frame_20
+    originalName: 
+    pivot: {x: 0.6, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 75
+      width: 15
+      height: 21
+    spriteID: 658ecd13b06fe414ab33f15666267bce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 75}
+  - name: Ghoul_Frame_21
+    originalName: 
+    pivot: {x: 0.79999995, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 114
+      width: 10
+      height: 23
+    spriteID: bc67f7c0f3e50624fa1ffa0e21cab4e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 114}
+  - name: Ghoul_Frame_22
+    originalName: 
+    pivot: {x: 0.88888884, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 114
+      width: 9
+      height: 21
+    spriteID: 4d30dd1c52b5efc488160b9e1773b833
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 114}
+  - name: Ghoul_Frame_23
+    originalName: 
+    pivot: {x: 0.75, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 114
+      width: 8
+      height: 23
+    spriteID: 6d25684316a59764baef7b5e9f7e8e13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 114}
+  - name: Ghoul_Frame_24
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 114
+      width: 10
+      height: 23
+    spriteID: 615e96366326f4a4a83c7a86aafb0f3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 114}
+  - name: Ghoul_Frame_25
+    originalName: 
+    pivot: {x: 0.79999995, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 114
+      width: 10
+      height: 23
+    spriteID: 5a8282ca3a4c4f74ba979dee8467be07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 114}
+  - name: Ghoul_Frame_26
+    originalName: 
+    pivot: {x: 1.0454545, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 37
+      width: 22
+      height: 27
+    spriteID: c924a10a750822b49af5c1d59102f6ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 37}
+  - name: Ghoul_Frame_27
+    originalName: 
+    pivot: {x: 1.037037, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 37
+      width: 27
+      height: 29
+    spriteID: 5a29315efc944664a8b3a805a4bdb7ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 37}
+  - name: Ghoul_Frame_28
+    originalName: 
+    pivot: {x: 1.0714285, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 28
+      height: 30
+    spriteID: fc95b9e509cf53546b1aa02ccb23ecfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: Ghoul_Frame_29
+    originalName: 
+    pivot: {x: 1.1071428, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 37
+      width: 28
+      height: 28
+    spriteID: 9c23f1c1e27b5154389bd6572ff2ec90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 37}
+  - name: Ghoul_Frame_30
+    originalName: 
+    pivot: {x: 1.3478261, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 37
+      width: 23
+      height: 28
+    spriteID: 66dd69178c491d04280ef9aa3e84faf0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 37}
+  - name: Ghoul_Frame_31
+    originalName: 
+    pivot: {x: 2.5454545, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 145
+      width: 11
+      height: 12
+    spriteID: 853866240b6b7cc4fa80ecb88ebd7f2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 145}
+  - name: Ghoul_Frame_33
+    originalName: 
+    pivot: {x: 0.70000005, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 145
+      width: 10
+      height: 5
+    spriteID: 582fc138b8966804e87379ae0ffc341e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 145}
+  - name: Ghoul_Frame_34
+    originalName: 
+    pivot: {x: 0.64285713, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 145
+      width: 14
+      height: 8
+    spriteID: 2ee796301e22cbb4ea5161b3a5a387dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 145}
+  - name: Ghoul_Frame_35
+    originalName: 
+    pivot: {x: 0.6666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 114
+      width: 12
+      height: 16
+    spriteID: 52d2862f8c4617a4e86954ceeca2fae0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 114}
+  - name: Ghoul_Frame_36
+    originalName: 
+    pivot: {x: 0.64285713, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 75
+      width: 14
+      height: 24
+    spriteID: 15c0ae499237590488c8b34d0967a26b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 75}
+  - name: Ghoul_Frame_37
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 37
+      width: 20
+      height: 24
+    spriteID: aeb6552c0661297408f998fc7f35f36f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 37}
+  - name: Ghoul_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 4
+      width: 22
+      height: 25
+    spriteID: 7b83557625032fb4cabf56d3ada72e60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 4}
+  - name: Ghoul_Frame_39
+    originalName: 
+    pivot: {x: 0.45000002, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 4
+      width: 20
+      height: 25
+    spriteID: 34e6c505e126d204d8d42ab184214342
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 4}
+  - name: Ghoul_Frame_40
+    originalName: 
+    pivot: {x: 0.4705882, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 37
+      width: 17
+      height: 25
+    spriteID: 23b42021ea7ec484d9c547cfef06cb9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 37}
+  - name: Ghoul_Frame_41
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 37
+      width: 15
+      height: 24
+    spriteID: 1002ab598325a094dbab33ef438017e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 37}
+  - name: Ghoul_Frame_42
+    originalName: 
+    pivot: {x: 0.5384616, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 75
+      width: 13
+      height: 24
+    spriteID: 6c34ad1f18627fa4c8017d12ee2caafd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 75}
+  - name: Ghoul_Frame_43
+    originalName: 
+    pivot: {x: 0.57142854, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 75
+      width: 14
+      height: 24
+    spriteID: 57c3b13e820d1524286f0a6a28d3e7a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 75}
+  - name: Ghoul_Frame_32
+    originalName: 
+    pivot: {x: 2.5454545, y: -1.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 145
+      width: 11
+      height: 12
+    spriteID: 5130f8dba7e64d848b93192940c2d8e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 145}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 115715365
+    name: Ghoul
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ghoul_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 1
+        width: 9
+        height: 23
+      spriteId: 6f7f02f1c7f30204abf2ce515ff7b69d
+    - name: Ghoul_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: ecbeb47578794d5478d7cbf1ac6b00a4
+    - name: Ghoul_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: ba463341c0625cf41a567f5b21df3ca2
+    - name: Ghoul_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: 8897caba698784146ad15d0cd23b95ac
+    - name: Ghoul_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: c4e462f5a73a8174987d53112d452685
+    - name: Ghoul_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 26
+        y: 1
+        width: 12
+        height: 22
+      spriteId: 5c019e9feddcebb4595e3ed168bf1c4e
+    - name: Ghoul_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 1
+        width: 13
+        height: 21
+      spriteId: f8d3ede585ef39241b78b2a3f24cff6f
+    - name: Ghoul_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 26
+        y: 1
+        width: 12
+        height: 20
+      spriteId: ce5faf3ab6e87804c93ec7919c0ba496
+    - name: Ghoul_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 21
+      spriteId: 1a08c2362dcd5fe4bb51bc5239883e07
+    - name: Ghoul_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: 4cde5f7a3223149469f2b6ce4140ac06
+    - name: Ghoul_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 27
+        y: 1
+        width: 11
+        height: 22
+      spriteId: d5502eda0b4cb14438510fc325c73250
+    - name: Ghoul_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 27
+        y: 1
+        width: 11
+        height: 20
+      spriteId: 3e4a1301b4d04a94da798f08ae052a72
+    - name: Ghoul_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 21
+      spriteId: 358989b92d19d7248a65e1d2771c2b44
+    - name: Ghoul_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: 5d0520f99d7ed354c8de3e6aa33a4822
+    - name: Ghoul_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 18
+        y: 1
+        width: 14
+        height: 25
+      spriteId: caf0bbef5212d424a92aab7e3dbe26df
+    - name: Ghoul_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 16
+        y: 1
+        width: 17
+        height: 31
+      spriteId: 037ecd634d229f24e85d6fe6d326520c
+    - name: Ghoul_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 20
+        y: 1
+        width: 41
+        height: 25
+      spriteId: 00203e59cd8b3ce49960a20b9111eefe
+    - name: Ghoul_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 22
+        y: 1
+        width: 39
+        height: 22
+      spriteId: 7c8f8444d5b47e249ad3acc657e32572
+    - name: Ghoul_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 22
+        y: 1
+        width: 39
+        height: 21
+      spriteId: d0113074bde55bc4390a06d68239b604
+    - name: Ghoul_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 22
+        y: 1
+        width: 40
+        height: 21
+      spriteId: e90d482ea9b131e44976184aec561b99
+    - name: Ghoul_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 22
+        y: 1
+        width: 15
+        height: 21
+      spriteId: 658ecd13b06fe414ab33f15666267bce
+    - name: Ghoul_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 23
+        y: 0
+        width: 10
+        height: 23
+      spriteId: bc67f7c0f3e50624fa1ffa0e21cab4e6
+    - name: Ghoul_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 23
+        y: 1
+        width: 9
+        height: 21
+      spriteId: 4d30dd1c52b5efc488160b9e1773b833
+    - name: Ghoul_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 25
+        y: 1
+        width: 8
+        height: 23
+      spriteId: 6d25684316a59764baef7b5e9f7e8e13
+    - name: Ghoul_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 27
+        y: 1
+        width: 10
+        height: 23
+      spriteId: 615e96366326f4a4a83c7a86aafb0f3d
+    - name: Ghoul_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 23
+        y: 0
+        width: 10
+        height: 23
+      spriteId: 5a8282ca3a4c4f74ba979dee8467be07
+    - name: Ghoul_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 8
+        y: 0
+        width: 22
+        height: 27
+      spriteId: c924a10a750822b49af5c1d59102f6ac
+    - name: Ghoul_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 3
+        y: 0
+        width: 27
+        height: 29
+      spriteId: 5a29315efc944664a8b3a805a4bdb7ed
+    - name: Ghoul_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 1
+        y: 0
+        width: 28
+        height: 30
+      spriteId: fc95b9e509cf53546b1aa02ccb23ecfc
+    - name: Ghoul_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 3
+        width: 28
+        height: 28
+      spriteId: 9c23f1c1e27b5154389bd6572ff2ec90
+    - name: Ghoul_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 4
+        width: 23
+        height: 28
+      spriteId: 66dd69178c491d04280ef9aa3e84faf0
+    - name: Ghoul_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 3
+        y: 20
+        width: 11
+        height: 12
+      spriteId: 853866240b6b7cc4fa80ecb88ebd7f2f
+    - name: Ghoul_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 24
+        y: 0
+        width: 10
+        height: 5
+      spriteId: 582fc138b8966804e87379ae0ffc341e
+    - name: Ghoul_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 22
+        y: 0
+        width: 14
+        height: 8
+      spriteId: 2ee796301e22cbb4ea5161b3a5a387dc
+    - name: Ghoul_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 23
+        y: 0
+        width: 12
+        height: 16
+      spriteId: 52d2862f8c4617a4e86954ceeca2fae0
+    - name: Ghoul_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 22
+        y: 0
+        width: 14
+        height: 24
+      spriteId: 15c0ae499237590488c8b34d0967a26b
+    - name: Ghoul_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 21
+        y: 0
+        width: 20
+        height: 24
+      spriteId: aeb6552c0661297408f998fc7f35f36f
+    - name: Ghoul_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 20
+        y: 0
+        width: 22
+        height: 25
+      spriteId: 7b83557625032fb4cabf56d3ada72e60
+    - name: Ghoul_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 22
+        y: 0
+        width: 20
+        height: 25
+      spriteId: 34e6c505e126d204d8d42ab184214342
+    - name: Ghoul_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 23
+        y: 0
+        width: 17
+        height: 25
+      spriteId: 23b42021ea7ec484d9c547cfef06cb9c
+    - name: Ghoul_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 22
+        y: 0
+        width: 15
+        height: 24
+      spriteId: 1002ab598325a094dbab33ef438017e8
+    - name: Ghoul_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 24
+        y: 0
+        width: 13
+        height: 24
+      spriteId: 6c34ad1f18627fa4c8017d12ee2caafd
+    - name: Ghoul_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 23
+        y: 0
+        width: 14
+        height: 24
+      spriteId: 57c3b13e820d1524286f0a6a28d3e7a7
+    - name: Ghoul_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 3
+        y: 21
+        width: 11
+        height: 12
+      spriteId: 5130f8dba7e64d848b93192940c2d8e7
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 62, y: 33}

@@ -1,0 +1,1060 @@
+fileFormatVersion: 2
+guid: 404e82ab837e10f4785b7d2deb7c8d57
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Smoke Animation_Frame_0
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.35211268}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 437
+      width: 59
+      height: 71
+    spriteID: 0e2916ef7e6a3da46a9e62ed6fbe8990
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 437}
+  - name: Smoke Animation_Frame_1
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.2840909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 395
+      width: 59
+      height: 88
+    spriteID: 763139f8bd2f65a4a9c3922226870802
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 395}
+  - name: Smoke Animation_Frame_2
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.28089887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 201
+      width: 59
+      height: 89
+    spriteID: 21e6c2e963aea284a929e2abc7169bef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 201}
+  - name: Smoke Animation_Frame_3
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.30487806}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 4
+      width: 59
+      height: 82
+    spriteID: c6330a6ff7893024cae2e926949ebccf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 4}
+  - name: Smoke Animation_Frame_4
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.30120483}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 280
+      width: 59
+      height: 83
+    spriteID: 249b5576167b33a4487b3b2f655056d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 280}
+  - name: Smoke Animation_Frame_5
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.29761907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 4
+      width: 59
+      height: 84
+    spriteID: f560a0b727e00684daf587f7b41b9502
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 4}
+  - name: Smoke Animation_Frame_6
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.29761907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 96
+      width: 59
+      height: 84
+    spriteID: 47d1145f1fc6a3549b00ee537f280ad4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 96}
+  - name: Smoke Animation_Frame_7
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 384
+      width: 59
+      height: 85
+    spriteID: 857cb229c3b3035439de3a7456d8bf10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 384}
+  - name: Smoke Animation_Frame_8
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.28735632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 100
+      width: 59
+      height: 87
+    spriteID: 222b319804f543d4daa8015a9586f432
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 100}
+  - name: Smoke Animation_Frame_9
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.28089887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 298
+      width: 59
+      height: 89
+    spriteID: fa3bdd64711d4ad4590754477ad78df1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 298}
+  - name: Smoke Animation_Frame_10
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 59
+      height: 90
+    spriteID: f5bfac38a32fec644a00ef5db1b35b07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: Smoke Animation_Frame_11
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.2747253}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 59
+      height: 91
+    spriteID: 60cfbfcb48106ca4d83c4528f6256d99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Smoke Animation_Frame_12
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.33783785}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 428
+      width: 59
+      height: 74
+    spriteID: 43dd2c0b3624885498ca039458956e07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 428}
+  - name: Smoke Animation_Frame_13
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32894737}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 260
+      width: 59
+      height: 76
+    spriteID: c3d42b227e4968a48802534f625583e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 260}
+  - name: Smoke Animation_Frame_14
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32051283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 265
+      width: 59
+      height: 78
+    spriteID: df0db863bc4a88845b3a590c48ec6501
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 265}
+  - name: Smoke Animation_Frame_15
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.31645572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 4
+      width: 59
+      height: 79
+    spriteID: 4cb1fb3d503a0364e84f00b41743e7c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 4}
+  - name: Smoke Animation_Frame_16
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.31250003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 362
+      width: 59
+      height: 80
+    spriteID: 54c7b566519a70c42a49cfdf40e43d27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 362}
+  - name: Smoke Animation_Frame_17
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.308642}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 184
+      width: 59
+      height: 81
+    spriteID: a89b32406e387c2428b71e579e178509
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 184}
+  - name: Smoke Animation_Frame_18
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.308642}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 273
+      width: 59
+      height: 81
+    spriteID: 01dddce876a05534e842efe21c17c4a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 273}
+  - name: Smoke Animation_Frame_19
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.30487806}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 94
+      width: 59
+      height: 82
+    spriteID: 8dfa2b5a51896f649a92b011bb6e6adf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 94}
+  - name: Smoke Animation_Frame_20
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.30120483}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 371
+      width: 59
+      height: 83
+    spriteID: 7dfe9b7a0da5d0943917a13b6634b1f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 371}
+  - name: Smoke Animation_Frame_21
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.29761907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 188
+      width: 59
+      height: 84
+    spriteID: 8cb98eb2ffc517b4591494a05d43e43b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 188}
+  - name: Smoke Animation_Frame_22
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.29069766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 290
+      width: 59
+      height: 86
+    spriteID: 6ddd09d60cc638e4884f1823c8c4d01a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 290}
+  - name: Smoke Animation_Frame_23
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.28735632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 195
+      width: 59
+      height: 87
+    spriteID: 202f38eb91b522f41931c009f9cb94cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 195}
+  - name: Smoke Animation_Frame_24
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.2840909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 4
+      width: 59
+      height: 88
+    spriteID: 4ed8d3e55dd9e934a818c4458e39b967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 4}
+  - name: Smoke Animation_Frame_25
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.34722224}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 4
+      width: 59
+      height: 72
+    spriteID: 62a0b779548658a45a933a75ef3b9290
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 4}
+  - name: Smoke Animation_Frame_26
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32467535}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 90
+      width: 59
+      height: 77
+    spriteID: d36379ef7e4b64448a535b95109d4eac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 90}
+  - name: Smoke Animation_Frame_27
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32051283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 351
+      width: 59
+      height: 78
+    spriteID: 5f8aca2e0d76d524797a59882851c9a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 351}
+  - name: Smoke Animation_Frame_28
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.31645572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 91
+      width: 59
+      height: 79
+    spriteID: 6ab948af61758474ab6f37c32fe02e6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 91}
+  - name: Smoke Animation_Frame_29
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32894737}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 344
+      width: 59
+      height: 76
+    spriteID: 8a7e361bd8b3ab5409266e3ea3516db0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 344}
+  - name: Smoke Animation_Frame_30
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32467535}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 175
+      width: 59
+      height: 77
+    spriteID: 6f1033f7b041c584faa4ecdf55695736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 175}
+  - name: Smoke Animation_Frame_31
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.32051283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 4
+      width: 59
+      height: 78
+    spriteID: 83258954e356638428bff2790c249f01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 4}
+  - name: Smoke Animation_Frame_32
+    originalName: 
+    pivot: {x: 0.49152544, y: -0.31645572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 178
+      width: 59
+      height: 79
+    spriteID: 5d647a2e03df5bc49af38506e4badccd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 178}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1478418373
+    name: Smoke Animation
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Smoke Animation_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 71
+      spriteId: 0e2916ef7e6a3da46a9e62ed6fbe8990
+    - name: Smoke Animation_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 88
+      spriteId: 763139f8bd2f65a4a9c3922226870802
+    - name: Smoke Animation_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 89
+      spriteId: 21e6c2e963aea284a929e2abc7169bef
+    - name: Smoke Animation_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 82
+      spriteId: c6330a6ff7893024cae2e926949ebccf
+    - name: Smoke Animation_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 83
+      spriteId: 249b5576167b33a4487b3b2f655056d4
+    - name: Smoke Animation_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 84
+      spriteId: f560a0b727e00684daf587f7b41b9502
+    - name: Smoke Animation_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 84
+      spriteId: 47d1145f1fc6a3549b00ee537f280ad4
+    - name: Smoke Animation_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 85
+      spriteId: 857cb229c3b3035439de3a7456d8bf10
+    - name: Smoke Animation_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 87
+      spriteId: 222b319804f543d4daa8015a9586f432
+    - name: Smoke Animation_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 89
+      spriteId: fa3bdd64711d4ad4590754477ad78df1
+    - name: Smoke Animation_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 90
+      spriteId: f5bfac38a32fec644a00ef5db1b35b07
+    - name: Smoke Animation_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 91
+      spriteId: 60cfbfcb48106ca4d83c4528f6256d99
+    - name: Smoke Animation_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 74
+      spriteId: 43dd2c0b3624885498ca039458956e07
+    - name: Smoke Animation_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 76
+      spriteId: c3d42b227e4968a48802534f625583e2
+    - name: Smoke Animation_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 78
+      spriteId: df0db863bc4a88845b3a590c48ec6501
+    - name: Smoke Animation_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 79
+      spriteId: 4cb1fb3d503a0364e84f00b41743e7c6
+    - name: Smoke Animation_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 80
+      spriteId: 54c7b566519a70c42a49cfdf40e43d27
+    - name: Smoke Animation_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 81
+      spriteId: a89b32406e387c2428b71e579e178509
+    - name: Smoke Animation_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 81
+      spriteId: 01dddce876a05534e842efe21c17c4a4
+    - name: Smoke Animation_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 82
+      spriteId: 8dfa2b5a51896f649a92b011bb6e6adf
+    - name: Smoke Animation_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 83
+      spriteId: 7dfe9b7a0da5d0943917a13b6634b1f6
+    - name: Smoke Animation_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 84
+      spriteId: 8cb98eb2ffc517b4591494a05d43e43b
+    - name: Smoke Animation_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 86
+      spriteId: 6ddd09d60cc638e4884f1823c8c4d01a
+    - name: Smoke Animation_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 87
+      spriteId: 202f38eb91b522f41931c009f9cb94cc
+    - name: Smoke Animation_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 88
+      spriteId: 4ed8d3e55dd9e934a818c4458e39b967
+    - name: Smoke Animation_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 72
+      spriteId: 62a0b779548658a45a933a75ef3b9290
+    - name: Smoke Animation_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 77
+      spriteId: d36379ef7e4b64448a535b95109d4eac
+    - name: Smoke Animation_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 78
+      spriteId: 5f8aca2e0d76d524797a59882851c9a6
+    - name: Smoke Animation_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 79
+      spriteId: 6ab948af61758474ab6f37c32fe02e6a
+    - name: Smoke Animation_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 76
+      spriteId: 8a7e361bd8b3ab5409266e3ea3516db0
+    - name: Smoke Animation_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 77
+      spriteId: 6f1033f7b041c584faa4ecdf55695736
+    - name: Smoke Animation_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 78
+      spriteId: 83258954e356638428bff2790c249f01
+    - name: Smoke Animation_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 51
+        y: 25
+        width: 59
+        height: 79
+      spriteId: 5d647a2e03df5bc49af38506e4badccd
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 160, y: 141}

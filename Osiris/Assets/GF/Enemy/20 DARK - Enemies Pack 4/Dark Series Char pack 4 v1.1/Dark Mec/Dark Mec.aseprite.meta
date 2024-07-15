@@ -1,0 +1,1200 @@
+fileFormatVersion: 2
+guid: 1f888fed2938e8048903295cc936a365
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dark Mec_Frame_0
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 340
+      width: 53
+      height: 32
+    spriteID: e8ccc161335ab244c91bb2c843354349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 340}
+  - name: Dark Mec_Frame_1
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 53
+      height: 40
+    spriteID: 5e2669439b7dc0c4da5b572876317dd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dark Mec_Frame_2
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 53
+      height: 40
+    spriteID: 7979b621636dce44485bda5f50d6df71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 52}
+  - name: Dark Mec_Frame_3
+    originalName: 
+    pivot: {x: 0.30769232, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 244
+      width: 52
+      height: 40
+    spriteID: 35745220755c76b44b08eda1df21ee3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 244}
+  - name: Dark Mec_Frame_4
+    originalName: 
+    pivot: {x: 0.30769232, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 292
+      width: 52
+      height: 40
+    spriteID: 7613578a8c22a4847accfcc96bfecfd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 292}
+  - name: Dark Mec_Frame_5
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 100
+      width: 53
+      height: 40
+    spriteID: e441cb6e1fdaf0a4abbbde1333bb7e44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 100}
+  - name: Dark Mec_Frame_6
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 53
+      height: 40
+    spriteID: ace132ef7d9f72748928bc7dbcbb71d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: Dark Mec_Frame_7
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 196
+      width: 53
+      height: 40
+    spriteID: 6df9b3fa44348d74f93831ff64f4a9e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 196}
+  - name: Dark Mec_Frame_8
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 244
+      width: 53
+      height: 40
+    spriteID: 519b351e3e5697f428a53d6acd3e40a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 244}
+  - name: Dark Mec_Frame_9
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 292
+      width: 53
+      height: 40
+    spriteID: b19226d56b02fed458c2e702741a2a77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 292}
+  - name: Dark Mec_Frame_10
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 340
+      width: 53
+      height: 40
+    spriteID: f02a51498ffdd3149906f5a199b245d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 340}
+  - name: Dark Mec_Frame_11
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 388
+      width: 53
+      height: 40
+    spriteID: a159f42a49f3ef542b9ebddb3e0731a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 388}
+  - name: Dark Mec_Frame_12
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 436
+      width: 53
+      height: 40
+    spriteID: c37fb704271392647901825846822c2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 436}
+  - name: Dark Mec_Frame_13
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 4
+      width: 53
+      height: 40
+    spriteID: 12040fcf424bd2b448c260312b8b4a7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 4}
+  - name: Dark Mec_Frame_14
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 52
+      width: 53
+      height: 40
+    spriteID: 069932ce14b42484c9a2638bcb15e989
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 52}
+  - name: Dark Mec_Frame_15
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 100
+      width: 53
+      height: 40
+    spriteID: 932f89dd9abc6fd4fb3dcffb1266f209
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 100}
+  - name: Dark Mec_Frame_16
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 148
+      width: 53
+      height: 40
+    spriteID: fe996f1c9bb72464d99e07e2017d7928
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 148}
+  - name: Dark Mec_Frame_17
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 196
+      width: 53
+      height: 40
+    spriteID: a8bf4abd05f4e534ca0f284a4391aca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 196}
+  - name: Dark Mec_Frame_18
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 244
+      width: 53
+      height: 40
+    spriteID: f5b9cdefd06362247bebcafb96be284f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 244}
+  - name: Dark Mec_Frame_19
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 292
+      width: 53
+      height: 40
+    spriteID: 24565825b02d1244191a10732de8d598
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 292}
+  - name: Dark Mec_Frame_20
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 340
+      width: 53
+      height: 40
+    spriteID: 45ce052c3d2aff140bf1523fcd0c391d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 340}
+  - name: Dark Mec_Frame_21
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 388
+      width: 53
+      height: 40
+    spriteID: 23960ecad3ce57449b2cd702d434ff0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 388}
+  - name: Dark Mec_Frame_22
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 436
+      width: 53
+      height: 40
+    spriteID: 78fb41b6e0c65c34bb5fa44160302471
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 436}
+  - name: Dark Mec_Frame_23
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 4
+      width: 53
+      height: 40
+    spriteID: 9cfc84a5956d1df40bffdb9fa7d1610c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 4}
+  - name: Dark Mec_Frame_24
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 52
+      width: 53
+      height: 40
+    spriteID: c792ae2b9a74a064c9c89e30c2ab979e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 52}
+  - name: Dark Mec_Frame_25
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 100
+      width: 53
+      height: 40
+    spriteID: 4e23cd3a257442249baac3126f84d2c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 100}
+  - name: Dark Mec_Frame_26
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 148
+      width: 53
+      height: 40
+    spriteID: 8f48dd8d8302071499e451d962069832
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 148}
+  - name: Dark Mec_Frame_27
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 196
+      width: 53
+      height: 40
+    spriteID: fd361ae88e8f5b840979b289a065c081
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 196}
+  - name: Dark Mec_Frame_28
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 244
+      width: 53
+      height: 40
+    spriteID: f6d7bfd16da41fe4b894de7703ae0cd4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 244}
+  - name: Dark Mec_Frame_29
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 292
+      width: 53
+      height: 40
+    spriteID: a2a9e0455a753834fb7993561c3a1b69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 292}
+  - name: Dark Mec_Frame_30
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 340
+      width: 53
+      height: 40
+    spriteID: e5b2df048e14787488ffae42ebebfc12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 340}
+  - name: Dark Mec_Frame_31
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 388
+      width: 53
+      height: 40
+    spriteID: d7c887fe36098274894701f0090c717e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 388}
+  - name: Dark Mec_Frame_32
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 436
+      width: 53
+      height: 40
+    spriteID: da640abe9c83e634b9ec53ac288ae6d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 436}
+  - name: Dark Mec_Frame_33
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 4
+      width: 53
+      height: 40
+    spriteID: 200d969319f94a343ae14944ae68a86d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 4}
+  - name: Dark Mec_Frame_34
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 52
+      width: 53
+      height: 40
+    spriteID: 1b41d7a5794a5164fbfca44ecbccec26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 52}
+  - name: Dark Mec_Frame_35
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 100
+      width: 53
+      height: 40
+    spriteID: d4fd519e037ca0945920ce9980414fd4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 100}
+  - name: Dark Mec_Frame_36
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 148
+      width: 53
+      height: 40
+    spriteID: 9de40ec55f83fad428ad3639efd55733
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 148}
+  - name: Dark Mec_Frame_37
+    originalName: 
+    pivot: {x: 0.3207547, y: 0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 196
+      width: 53
+      height: 40
+    spriteID: dcc9ebd1a4e1a154badd4d773f5e2b23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 196}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1247460159
+    name: Dark Mec
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dark Mec_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 32
+      spriteId: e8ccc161335ab244c91bb2c843354349
+    - name: Dark Mec_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 5e2669439b7dc0c4da5b572876317dd9
+    - name: Dark Mec_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 7979b621636dce44485bda5f50d6df71
+    - name: Dark Mec_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: -1
+        width: 52
+        height: 40
+      spriteId: 35745220755c76b44b08eda1df21ee3d
+    - name: Dark Mec_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: -1
+        width: 52
+        height: 40
+      spriteId: 7613578a8c22a4847accfcc96bfecfd7
+    - name: Dark Mec_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: e441cb6e1fdaf0a4abbbde1333bb7e44
+    - name: Dark Mec_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: ace132ef7d9f72748928bc7dbcbb71d3
+    - name: Dark Mec_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 6df9b3fa44348d74f93831ff64f4a9e2
+    - name: Dark Mec_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 519b351e3e5697f428a53d6acd3e40a6
+    - name: Dark Mec_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: b19226d56b02fed458c2e702741a2a77
+    - name: Dark Mec_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: f02a51498ffdd3149906f5a199b245d2
+    - name: Dark Mec_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: a159f42a49f3ef542b9ebddb3e0731a7
+    - name: Dark Mec_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: c37fb704271392647901825846822c2c
+    - name: Dark Mec_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 12040fcf424bd2b448c260312b8b4a7e
+    - name: Dark Mec_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 069932ce14b42484c9a2638bcb15e989
+    - name: Dark Mec_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 932f89dd9abc6fd4fb3dcffb1266f209
+    - name: Dark Mec_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: fe996f1c9bb72464d99e07e2017d7928
+    - name: Dark Mec_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: a8bf4abd05f4e534ca0f284a4391aca2
+    - name: Dark Mec_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: f5b9cdefd06362247bebcafb96be284f
+    - name: Dark Mec_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 24565825b02d1244191a10732de8d598
+    - name: Dark Mec_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 45ce052c3d2aff140bf1523fcd0c391d
+    - name: Dark Mec_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 23960ecad3ce57449b2cd702d434ff0b
+    - name: Dark Mec_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 78fb41b6e0c65c34bb5fa44160302471
+    - name: Dark Mec_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 9cfc84a5956d1df40bffdb9fa7d1610c
+    - name: Dark Mec_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: c792ae2b9a74a064c9c89e30c2ab979e
+    - name: Dark Mec_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 4e23cd3a257442249baac3126f84d2c7
+    - name: Dark Mec_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 8f48dd8d8302071499e451d962069832
+    - name: Dark Mec_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: fd361ae88e8f5b840979b289a065c081
+    - name: Dark Mec_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: f6d7bfd16da41fe4b894de7703ae0cd4
+    - name: Dark Mec_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: a2a9e0455a753834fb7993561c3a1b69
+    - name: Dark Mec_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: e5b2df048e14787488ffae42ebebfc12
+    - name: Dark Mec_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: d7c887fe36098274894701f0090c717e
+    - name: Dark Mec_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: da640abe9c83e634b9ec53ac288ae6d9
+    - name: Dark Mec_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 200d969319f94a343ae14944ae68a86d
+    - name: Dark Mec_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 1b41d7a5794a5164fbfca44ecbccec26
+    - name: Dark Mec_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: d4fd519e037ca0945920ce9980414fd4
+    - name: Dark Mec_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: 9de40ec55f83fad428ad3639efd55733
+    - name: Dark Mec_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: -1
+        y: -1
+        width: 53
+        height: 40
+      spriteId: dcc9ebd1a4e1a154badd4d773f5e2b23
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 39}

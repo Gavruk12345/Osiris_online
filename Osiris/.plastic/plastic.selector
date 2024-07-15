@@ -1,0 +1,4 @@
+repository "Osiris@lolot@cloud"
+  path "/"
+    br "/main"
+    co "/main"
